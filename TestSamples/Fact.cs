@@ -15,6 +15,12 @@ namespace MyFirstUnitTests.TestSamples
         {
             Assert.Equal(5, Add(2, 2));
         }
+
+        [Fact(Skip = "不需要跑")]
+        public void FailingTestSkip()
+        {
+            Assert.Equal(5, Add(2, 2));
+        }
         
         int Add(int x, int y)
         {
