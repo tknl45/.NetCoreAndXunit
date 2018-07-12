@@ -1,0 +1,2 @@
+# .NetCoreAndXunit
+.NetCore + Xunit practice
